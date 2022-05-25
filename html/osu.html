@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini game</title>
+    <link rel="stylesheet" href="../css/osu.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <div class="timer" id="timer">30</div>
+    <div class="container_for_game">
+        <div class="border">
+            <div class="result" id="result">
+                <div class="result_title" id="result_title">Your result</div>
+                <div class="score" id="score"><p id="score_p"></p></div>
+            </div>
+            <div id="start_btn" class="start_btn"  onclick="beginGame(this)">Start</div>
+                <div class="square" onclick="square(this)" id="square"></div>
+        </div>
+    </div>
+
+    <script src="../js/osu.js"></script>
+</body>
+</html>

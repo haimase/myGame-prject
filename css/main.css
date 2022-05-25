@@ -1,0 +1,236 @@
+
+/* html{
+    width: 100vh;
+    height: 100vh;
+} */
+
+body{
+    color: #fff;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vh;
+    font-family: 'Press Start 2P';
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+     height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+
+.wrapper{
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vh;
+}
+
+.container{
+    margin-top: 250px;
+    justify-content: center; 
+    /* height: 100vh; */
+}
+
+.title_h{
+    font-size: 54px;
+    color: #bde0ff;
+}
+
+
+.title_p{
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.btn_main{
+    --color: #000;
+    --border-color: #000;
+    --shadow-color: rgb(54, 51, 51);
+
+    position: relative;
+    font-size: .75rem;
+    width: 200px;
+    height: 75px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2rem;
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-family: 'Press Start 2P', monospace;
+    font-weight: bold;
+    background-color: var(--color);
+    box-shadow: 0 -3px var(--color),
+                3px 0 var(--color),
+                0 3px var(--color),
+                -3px 0 var(--color),
+                0 -6px var(--border-color),
+                3px -3px var(--border-color),
+                6px 0 var(--border-color),
+                0 6px var(--border-color),
+                -3px 3px var(--border-color),
+                -6px 0 var(--border-color),
+                -3px -3px var(--border-color),
+                3px 3px var(--border-color),
+                0px 9px var(--shadow-color),
+                3px 6px var(--shadow-color),
+                6px 3px var(--shadow-color),
+                0px 9px var(--shadow-color),
+                -3px 6px var(--shadow-color),
+                -6px 3px var(--shadow-color);
+}
+
+.btn_main:hover{
+    background-color: #fff;
+    color: #000;
+    --border-color: #fff;
+    --shadow-color: rgb(54, 51, 51);
+    transition: .5s;
+
+}
+
+.btn_main:active{
+    top: 6px;
+	box-shadow: 0 -3px var(--color),
+                3px 0 var(--color),
+                0 3px var(--color),
+                -3px 0 var(--color),
+                0 -6px var(--border-color),
+                3px -3px var(--border-color),
+                6px 0 var(--border-color),
+                0 6px var(--border-color),
+                -3px 3px var(--border-color),
+                -6px 0 var(--border-color),
+                -3px -3px var(--border-color),
+                3px 3px var(--border-color),
+                0px 6px var(--shadow-color),
+                3px 3px var(--shadow-color),
+                6px 0px var(--shadow-color),
+                0px 6px var(--shadow-color),
+                -3px 3px var(--shadow-color),
+                -6px 0px var(--shadow-color);
+}
+
+
+.block{
+    text-align: center;
+    border: #fff 1px solid;
+    background-color: #000;
+    margin-top: 200px;
+    height: 300px;
+    box-shadow: 0 -3px var(--color),
+    3px 0 var(--color),
+    0 3px var(--color),
+    -3px 0 var(--color),
+    0 -6px var(--border-color),
+    3px -3px var(--border-color),
+    6px 0 var(--border-color),
+    0 6px var(--border-color),
+    -3px 3px var(--border-color),
+    -6px 0 var(--border-color),
+    -3px -3px var(--border-color),
+    3px 3px var(--border-color),
+    0px 9px var(--shadow-color),
+    3px 6px var(--shadow-color),
+    6px 3px var(--shadow-color),
+    0px 9px var(--shadow-color),
+    -3px 6px var(--shadow-color),
+    -6px 3px var(--shadow-color);
+}
+
+.card{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card_title{
+    font-size: 32px;
+}
+
+.card_p{
+    margin-top: 25px;
+    color: #e73c7e;
+}
+
+.link{
+    margin-top: 30px;
+    --color: #fff;
+    --border-color: #fff;
+    --shadow-color: rgb(54, 51, 51);
+
+    position: relative;
+    font-size: .75rem;
+    width: 100px;
+    height: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2rem;
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-family: 'Press Start 2P', monospace;
+    font-weight: bold;
+    background-color: var(--color);
+    box-shadow: 0 -3px var(--color),
+                3px 0 var(--color),
+                0 3px var(--color),
+                -3px 0 var(--color),
+                0 -6px var(--border-color),
+                3px -3px var(--border-color),
+                6px 0 var(--border-color),
+                0 6px var(--border-color),
+                -3px 3px var(--border-color),
+                -6px 0 var(--border-color),
+                -3px -3px var(--border-color),
+                3px 3px var(--border-color),
+                0px 9px var(--shadow-color),
+                3px 6px var(--shadow-color),
+                6px 3px var(--shadow-color),
+                0px 9px var(--shadow-color),
+                -3px 6px var(--shadow-color),
+                -6px 3px var(--shadow-color);
+}
+
+.link:active{
+    top: 6px;
+	box-shadow: 0 -3px var(--color),
+                3px 0 var(--color),
+                0 3px var(--color),
+                -3px 0 var(--color),
+                0 -6px var(--border-color),
+                3px -3px var(--border-color),
+                6px 0 var(--border-color),
+                0 6px var(--border-color),
+                -3px 3px var(--border-color),
+                -6px 0 var(--border-color),
+                -3px -3px var(--border-color),
+                3px 3px var(--border-color),
+                0px 6px var(--shadow-color),
+                3px 3px var(--shadow-color),
+                6px 0px var(--shadow-color),
+                0px 6px var(--shadow-color),
+                -3px 3px var(--shadow-color),
+                -6px 0px var(--shadow-color);
+}
+
+.card_link{
+    text-decoration: none;
+    color: #000;
+}
